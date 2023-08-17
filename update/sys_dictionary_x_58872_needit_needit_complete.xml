@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="complete" table="x_58872_needit_needit">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-17 18:41:58</sys_created_on>
-        <sys_id>2ff1d65297807510a623b8d6f053af00</sys_id>
         <sys_name>complete</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>

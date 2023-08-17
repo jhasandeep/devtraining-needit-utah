@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="read_only=true" db_object_id="c88bf4df97c83910a623b8d6f053af6b" label="Liaison Agency table" max_length="40" name="x_58872_needit_st_liaison_agency_table" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="string"/>
+        <element label="Agency Email" max_length="40" name="agency_email" reference="sys_email" type="string"/>
+        <element label="Companies" max_length="40" name="companies" reference="core_company" type="string"/>
+        <element label="Location" max_length="40" name="location" reference="cmn_location" type="string"/>
+        <element label="Manager" max_length="40" name="manager" reference="sys_user" type="string"/>
+        <element label="Managing Group" max_length="40" name="managing_group" reference="sys_user_group" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Agency Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element label="Secondary Contact" max_length="40" name="secondary_contact" reference="sys_user" type="string"/>
+    </element>
+</database>

@@ -10,6 +10,7 @@
 Daily data collector for NeedIt data.</description>
         <entered_time/>
         <kill_job>false</kill_job>
+        <max_drift/>
         <name>NeedIt Daily</name>
         <offset/>
         <offset_type/>

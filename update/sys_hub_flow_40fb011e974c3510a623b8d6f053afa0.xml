@@ -4,6 +4,7 @@
         <acls/>
         <active>false</active>
         <annotation/>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
@@ -29,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>40fb011e974c3510a623b8d6f053afa0</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>NeedIt Fulfillment flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -37,7 +38,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_hub_flow_40fb011e974c3510a623b8d6f053afa0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-17 14:29:15</sys_updated_on>
+        <sys_updated_on>2023-08-17 13:27:33</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=40fb011e974c3510a623b8d6f053afa0"/>
@@ -228,6 +229,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=204c0d9a974c3510a623b8d6f053aff6"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -311,6 +313,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2c4c0d9a974c3510a623b8d6f053affc"/>
     <sys_hub_flow_output action="delete_multiple" query="model=40fb011e974c3510a623b8d6f053afa0"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=40fb011e974c3510a623b8d6f053afa0"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=40fb011e974c3510a623b8d6f053afa0^sys_idNOT IN0478115a978c3510a623b8d6f053af98,666d0d5e974c3510a623b8d6f053aff9"/>
@@ -319,6 +322,7 @@
         <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Get approval from Requested for's Manager</comment>
         <display_text/>
         <flow display_value="NeedIt Fulfillment flow">40fb011e974c3510a623b8d6f053afa0</flow>
@@ -484,6 +488,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment>Set State to Awaiting Approval and assign to Beth Anglin</comment>
         <display_text/>
         <flow display_value="NeedIt Fulfillment flow">40fb011e974c3510a623b8d6f053afa0</flow>
@@ -585,11 +590,11 @@
         <sys_created_on>2023-07-17 13:36:02</sys_created_on>
         <sys_id>684c0d9a974c3510a623b8d6f053affb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_40fb011e974c3510a623b8d6f053afa0_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-07-17 13:36:02</sys_updated_on>
         <url/>
@@ -608,11 +613,11 @@
         <sys_created_on>2023-07-17 13:36:02</sys_created_on>
         <sys_id>e44c091e974c3510a623b8d6f053af40</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_40fb011e974c3510a623b8d6f053afa0_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-07-17 13:36:02</sys_updated_on>
         <url/>
@@ -621,30 +626,12 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_40fb011e974c3510a623b8d6f053afa0"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_40fb011e974c3510a623b8d6f053afa0"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_40fb011e974c3510a623b8d6f053afa0"/>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=40fb011e974c3510a623b8d6f053afa0^sys_idNOT INe3ff4912978c3510a623b8d6f053af16"/>
-    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"e3ff4912978c3510a623b8d6f053af16","name":"plan","plan_signature":null}}</plan>
-        <plan_id>40fb011e974c3510a623b8d6f053afa0</plan_id>
-        <snapshot>6fff0912978c3510a623b8d6f053afda</snapshot>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-17 13:52:21</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>e3ff4912978c3510a623b8d6f053af16</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-17 14:04:18</sys_updated_on>
-        <trigger display_value="">72b2d5d2978c3510a623b8d6f053af31</trigger>
-    </sys_flow_trigger_plan>
-    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=40fb011e974c3510a623b8d6f053afa0"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
@@ -827,6 +814,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2bff0912978c3510a623b8d6f053aff5"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -910,6 +898,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a3ff0912978c3510a623b8d6f053afe9"/>
     <sys_hub_flow_output action="delete_multiple" query="model=6fff0912978c3510a623b8d6f053afda"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6fff0912978c3510a623b8d6f053afda"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=6fff0912978c3510a623b8d6f053afda^sys_idNOT IN22b295d2978c3510a623b8d6f053afe6,e7ff4912978c3510a623b8d6f053af05"/>
@@ -917,6 +906,7 @@
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="NeedIt Fulfillment flow">6fff0912978c3510a623b8d6f053afda</flow>
@@ -955,6 +945,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
         <comment>Set State to Awaiting Approval and assign to Beth Anglin</comment>
         <display_text/>
         <flow display_value="NeedIt Fulfillment flow">6fff0912978c3510a623b8d6f053afda</flow>
@@ -1056,11 +1047,11 @@
         <sys_created_on>2023-07-17 13:52:21</sys_created_on>
         <sys_id>afff0912978c3510a623b8d6f053aff9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6fff0912978c3510a623b8d6f053afda_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-07-17 13:52:21</sys_updated_on>
         <url/>
@@ -1079,11 +1070,11 @@
         <sys_created_on>2023-07-17 13:52:21</sys_created_on>
         <sys_id>efff0912978c3510a623b8d6f053aff1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6fff0912978c3510a623b8d6f053afda_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-07-17 13:52:21</sys_updated_on>
         <url/>
@@ -1097,4 +1088,23 @@
         <latest_snapshot>6fff0912978c3510a623b8d6f053afda</latest_snapshot>
         <compiler_build>glide-tokyo-07-08-2022__patch9-hotfix2-06-07-2023_06-23-2023_1740.zip</compiler_build>
     </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=40fb011e974c3510a623b8d6f053afa0^sys_idNOT INe3ff4912978c3510a623b8d6f053af16"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"e3ff4912978c3510a623b8d6f053af16","name":"plan","plan_signature":null}}</plan>
+        <plan_id>40fb011e974c3510a623b8d6f053afa0</plan_id>
+        <snapshot>6fff0912978c3510a623b8d6f053afda</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-17 13:52:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3ff4912978c3510a623b8d6f053af16</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-17 14:04:18</sys_updated_on>
+        <trigger display_value="">72b2d5d2978c3510a623b8d6f053af31</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=40fb011e974c3510a623b8d6f053afa0"/>
 </record_update>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.query_hints=true,email_client=true,hasWorkflow=true,live_feed=true,query_hints=true" audit="true" db_object_id="6c8c004724b021108c8bc6863d3fad1c" extends="task" label="Incident" max_length="40" name="incident" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Agency" max_length="32" name="x_58872_needit_agency" reference="x_58872_needit_liaison_agency" type="reference"/>
+    </element>
+</database>

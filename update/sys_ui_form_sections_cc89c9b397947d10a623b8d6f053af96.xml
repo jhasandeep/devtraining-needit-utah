@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_58872_needit_liaison_agency" name="x_58872_needit_liaison_agency" sys_domain="global" view="Default view">cc89c9b397947d10a623b8d6f053af96</sys_ui_form>
-            <sys_ui_section caption="Advanced Details" display_value="Advanced Details" name="x_58872_needit_liaison_agency" sys_domain="global" view="Default view">0889c9b397947d10a623b8d6f053af98</sys_ui_section>
+            <sys_ui_section display_value="">0889c9b397947d10a623b8d6f053af98</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-08-03 15:30:34</sys_updated_on>
         </sys_ui_form_section>

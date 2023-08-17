@@ -340,6 +340,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-20 14:06:07</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>56ef6c9397c83910a623b8d6f053af0a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>FlowTopic</sys_name>

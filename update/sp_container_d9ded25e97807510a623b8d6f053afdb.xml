@@ -8,6 +8,7 @@
         <container_class_name/>
         <name>rm - Container 1</name>
         <order>1</order>
+        <semantic_tag/>
         <sp_page display_value="rm">20be965e97807510a623b8d6f053af6e</sp_page>
         <subheader>false</subheader>
         <sys_class_name>sp_container</sys_class_name>

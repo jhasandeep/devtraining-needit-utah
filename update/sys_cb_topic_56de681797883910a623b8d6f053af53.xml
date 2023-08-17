@@ -11,6 +11,7 @@
         <channels/>
         <connect_queue/>
         <description>ITSM conversation for creating incidents using Record Producer</description>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>false</flexible_conversation_switching>
         <graph>{
@@ -348,6 +349,7 @@
         <key_phrases>Report IT Issue.,Report IT Issue (Deprecated),Report IT Issue,create,open,incident,ticket,issue,broken,help,IT</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
         <name>Report IT Issue.</name>
         <nlu_intent/>
         <nlu_intent_label/>
@@ -356,12 +358,14 @@
         <nlu_provider/>
         <palette_label/>
         <roles/>
+        <root_topic_id/>
         <secure_custom_input_control>false</secure_custom_input_control>
         <source_topic_id>3b12f20b53630010fa75ddeeff7b12bf</source_topic_id>
         <sys_class_name>sys_cb_topic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-20 14:01:27</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>56de681797883910a623b8d6f053af53</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Report IT Issue.</sys_name>
@@ -375,5 +379,6 @@
         <type>STANDARD</type>
         <variables/>
     </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=56de681797883910a623b8d6f053af53"/>
     <sys_variable_value action="delete_multiple" query="document_key=56de681797883910a623b8d6f053af53"/>
 </record_update>

@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_user_id" table="imp_user">
         <active>true</active>
         <array>false</array>
-        <attributes>import_attribute_name=user id</attributes>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=user id</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-19 13:30:40</sys_created_on>
-        <sys_id>593e1b3a9704f510a623b8d6f053af87</sys_id>
         <sys_name>user id</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>

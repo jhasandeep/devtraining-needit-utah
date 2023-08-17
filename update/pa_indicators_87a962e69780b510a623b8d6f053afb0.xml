@@ -29,6 +29,8 @@ Active = true</description>
         <forecast_lower_limit/>
         <forecast_method>1</forecast_method>
         <forecast_periods>2</forecast_periods>
+        <forecast_preselect_observations>false</forecast_preselect_observations>
+        <forecast_robust_estimation>false</forecast_robust_estimation>
         <forecast_upper_limit/>
         <formula/>
         <formula_aggregate_whole>false</formula_aggregate_whole>

@@ -9,6 +9,7 @@
         <group_list/>
         <include_detail>false</include_detail>
         <include_with/>
+        <max_drift/>
         <name>Scheduled execution of Active NeedIt Requests by Type.</name>
         <offset/>
         <offset_type>0</offset_type>

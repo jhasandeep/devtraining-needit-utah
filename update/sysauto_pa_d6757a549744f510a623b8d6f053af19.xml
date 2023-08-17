@@ -9,6 +9,7 @@
         <description>Data Collector for NeedIt Historical data. Collects 6 months of data including the current month.</description>
         <entered_time/>
         <kill_job>false</kill_job>
+        <max_drift/>
         <name>NeedIt Historical Data</name>
         <offset/>
         <offset_type/>
